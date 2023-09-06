@@ -926,7 +926,7 @@ section {
 
 @media (max-width: 480px) {
   .blog .blog-details .zoomed {
-    max-width: 380px;
+    max-width: 310px;
   }
 }
 
