@@ -901,10 +901,23 @@ section {
   padding: 30px;
 }
 
-.blog .blog-details .post-img {
-  margin: -30px -30px 20px -30px;
+.blog .blog-details img {
+  max-width: 120px;
+  margin-right: 20px;
+  cursor: pointer;
   overflow: hidden;
+  transition: transform 0.3s;
 }
+
+.blog .blog-details .zoomable-image {
+  width: 100%;
+  height: auto;
+}
+
+.blog .blog-details .zoomed {
+  max-width: 720px;
+}
+
 
 .blog .blog-details .title {
   font-size: 28px;
