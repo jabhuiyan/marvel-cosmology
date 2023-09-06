@@ -1,10 +1,4 @@
-/**
-* Template Name: UpConstruction
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -106,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /**
-   * Porfolio isotope and filter
+   * Structures isotope and filter
    */
   let portfolionIsotope = document.querySelector('.portfolio-isotope');
 
@@ -143,62 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Init swiper slider with 1 slide at once in desktop view
-   */
-  new Swiper('.slides-1', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-  });
-
-  /**
-   * Init swiper slider with 2 slides at once in desktop view
-   */
-  new Swiper('.slides-2', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
-   * Initiate pURE cOUNTER
+   * Initiate PURE cOUNTER
    */
   new PureCounter();
 
