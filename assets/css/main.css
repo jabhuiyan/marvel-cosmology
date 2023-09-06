@@ -918,6 +918,12 @@ section {
   max-width: 720px;
 }
 
+@media (max-width: 991px) {
+  .blog .blog-details .zoomed {
+    max-width: 409px;
+  }
+}
+
 
 .blog .blog-details .title {
   font-size: 28px;
