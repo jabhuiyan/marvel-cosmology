@@ -18,6 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const imageContainers = document.querySelectorAll("img");
+  imageContainers.forEach((container) => {
+    container.addEventListener("click", function() {
+      this.classList.toggle("zoomed");
+    });
+  });
+
   /**
    * Mobile nav toggle
    */
