@@ -14,7 +14,10 @@ v1.1
 v1.2
 --------
 -Added more scans
+
 -Fixed img hosting links
+
 -Up to date info on structures and misc
+
 --------
 A website that explores the evergrowing Marvel cosmology
